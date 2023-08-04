@@ -1,0 +1,33 @@
+.propertys__title {
+    color: #1D1D1B;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.3;
+
+    @media (max-width: 767px) { 
+        font-size: 14px;       
+    }
+}
+
+.propertys__line {
+    flex: 1 1 auto;
+    position: relative;
+    top: -16px;
+    border-bottom: 1px solid #ccc;    
+}
+
+.propertys__price {
+    color: #1D1D1B;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.3;
+
+    @media (max-width: 767px) { 
+        font-size: 14px;       
+    }
+
+    span {
+        color: #27AE60;
+        font-weight: 400;
+    }
+}

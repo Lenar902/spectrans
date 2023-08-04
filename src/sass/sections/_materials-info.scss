@@ -1,0 +1,12 @@
+.materials-info {
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    .tab__content .row {
+        --bs-gutter-x: 3rem;
+
+        @media (max-width: 767px) {  
+            --bs-gutter-x: 1.5rem;
+        }
+    }
+}

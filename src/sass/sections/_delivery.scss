@@ -1,0 +1,74 @@
+.delivery {
+    padding-top: 40px;
+    padding-bottom: 65px;
+    background-color: #eee;
+
+    @media (max-width: 999px) {   
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+}
+
+.delivery__map {
+    max-width: 950px;
+    height: 900px;
+
+    @media (max-width: 1199px) {      
+        max-width: 600px;
+        height: 500px;        
+    }
+
+    @media (max-width: 599px) {       
+        max-width: 400px;
+        height: 350px;         
+    }
+}
+
+.delivery__map iframe {
+    width: 100%;
+    height: 100%;
+}
+
+.delivery-list {
+    list-style: none;
+    position: relative;
+    margin-bottom: 70px;
+}
+
+.delivery-list > li + li{
+    margin-top: 64px;
+}
+
+.delivery-list li::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 20px;
+    height: 25px;
+    background-image: url('../img/delivery/star.svg');
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.delivery-info {
+    max-width: 340px;
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;    
+    background-color: #F8F8F8;
+}
+
+.delivery-info__title {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 24px;
+    color: #393838;
+}
+
+.delivery-info__subtitle {
+    font-size: 16px;
+    font-weight: 400;
+    color: #848692;
+}
